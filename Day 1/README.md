@@ -1,0 +1,51 @@
+# ACES - HTML CSS Training 2079
+
+### Day 1 - HTML Introduction and Editor Setup
+- HTML Introduction
+- Basic Anatomy of HTML (PDF Presentation)
+    - DOCTYPE Declaration
+    - HTML Tags Structure
+        - Opening and Closing Tags
+        - Self Closing Tags
+    - Head Section
+        - Meta charset information (utf-8 encoding)
+        - Page Title
+    - Body Section
+- Editor Setup
+    - VSCode Installation
+    - Creating a Project Folder and opening in VSCode
+    - Installing ***HTML CSS Support*** Extension
+    - Creating index.html file
+- HTML Code Structure
+    - Manually typing the boilerplate code
+        - DOCTYPE declaration
+        - ***\<head>*** section
+        - meta charset utf-8 encoding
+        - *** \<body>*** section
+    - Using Emmet Abbreviation in VSCode
+- Viewing the Output in a Browser
+- HTML Comments
+    - Introduction
+    - Single Line Comments
+    - Multi Line Comments
+- Basic HTML Tags
+    - Headings h1 to h6
+    - \<p> tag
+    - Line Break \<br />
+- HTML Text Formatting
+    - \<b> **Bold Text**
+    - \<strong> **Important Text**
+        - \<b> vs \<strong>
+    - \<i> *Italic Text*
+    - \<em> *Emphasized Text*
+        - \<i> vs \<em>
+    - \<mark> <mark>Marked Text</mark>
+    - \<small> <small>Small Text</small>
+    - \<del> <del> Deleted Text </del>
+    - \<ins> <ins> Inserted Text </ins>
+    - \<sup> Text<sup>Superscript</sup>
+    - \<sub> Text<sub>Subscript</sub>
+- HTML Lists
+    - Unordered Lists ***\<ul>***
+    - List Items ***\<li>***
+    - Ordered Lists ***\<ol>***
