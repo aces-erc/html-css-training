@@ -1,9 +1,8 @@
 # ACES - HTML CSS Training 2079
 
 ### Day 1 - HTML Introduction and Editor Setup
-### Day 2 - 
-### Day 3 - 
-### Day 4 - CSS Introduction
-### Day 5 - 
-### Day 6 - 
-### Day 7 - Tailwind CSS
+### Day 2 - HTML Attributes, Links, Media and Table
+### Day 3 - CSS Introduction and Box Model
+### Day 4 - CSS FlexBox, Grid And Responsiveness
+### Day 5 - CSS Pseudo Elements, Pseudo Class and Animations
+### Day 6 - Deploying into Github Pages
