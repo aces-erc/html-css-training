@@ -16,7 +16,6 @@
     - Border
     - Box-Shadow
     - Border-Radius
-    - Z-index
 - CSS Display Properties
     - inline
     - block 
@@ -28,8 +27,17 @@
     - absolute
     - fixed 
     - sticky
+    - Z-index
 - Font Styling
     - font-size, family, weight, color
     - font-family fallback
-    - Introduction to em & rem units
     - line-height
+- CSS Units
+    - Absolute Length Units
+        - px
+    - Relative Length Units
+        - em
+        - rem
+        - %
+        - vh
+        - vw
