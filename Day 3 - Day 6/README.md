@@ -1,6 +1,6 @@
 # ACES - HTML CSS Training 2079
 
-### Day 3 - Day 6 - CSS Training
+### Day 3 To Day 6 - CSS Training
 - CSS Introduction
 - Types of CSS
     - Inline CSS
