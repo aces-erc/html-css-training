@@ -1,0 +1,43 @@
+# ACES - HTML CSS Training 2079
+
+### Day 3 - CSS Introduction and Box Model
+- CSS Introduction
+- Types of CSS
+    - Inline CSS
+    - Internal CSS
+    - External CSS
+- CSS Selectors
+    - class selector
+    - id selector
+    - class selector VS id selector
+- CSS Specificity
+- Box Model
+    - Margin and Padding
+    - Border
+    - Box-Shadow
+    - Border-Radius
+- CSS Display Properties
+    - inline
+    - block 
+    - inline-block
+    - none
+- CSS Positioning
+    - static
+    - relative
+    - absolute
+    - fixed 
+    - sticky
+    - Z-index
+- Font Styling
+    - font-size, family, weight, color
+    - font-family fallback
+    - line-height
+- CSS Units
+    - Absolute Length Units
+        - px
+    - Relative Length Units
+        - em
+        - rem
+        - %
+        - vh
+        - vw
