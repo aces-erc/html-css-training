@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+/* For centering text */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+
+/* Flex Grow */
+.flex_grow{
+    display: flex;
+    
+}
+
+/* It covers 2 out of 12 space */
+.flex_grow .box-1{
+    flex-grow: 2;
+    /* Box 1 but ordered 2nd */
+    order: 2;
+}
+/* It covers 4 out of 12 space */
+.flex_grow .box-2{
+    flex-grow: 4;
+    /* Box 2 but ordered 1st */
+    order: 1;
+}
+/* It covers 6 out of 12 space */
+.flex_grow .box-3{
+    flex-grow: 6;
+    /* Box 3 and ordered 3rd */
+    order: 3;
+}
+
+/* Flex Shrink */
+.flex_shrink{
+    display: flex;
+    
+}
+
+
+.flex_shrink .box-1{
+    flex-shrink: 1;
+    /* Flex Basis is like width but more flexible than width because it can be changed*/
+    flex-basis: 800px;
+}
+
+.flex_shrink .box-2{
+    flex-shrink: 1;
+    flex-basis: 800px;
+}
+/* Box 3 will be shaved off twice when there isn’t enough space on the row */
+.flex_shrink .box-3{
+    flex-shrink: 2;
+    flex-basis: 800px;
+}

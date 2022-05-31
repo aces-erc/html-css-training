@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+/* For centering text */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+/* Flex Wrap : No Wrap
+Here all flex items will be on one line */
+.flexbox_nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* Flex Wrap : Wrap
+Here all flex items will wrap onto multiple lines, from top to bottom */
+
+.flexbox_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Flex Wrap : WrapReverse
+Here all flex items will wrap onto multiple lines, from bottom to top */
+
+.flexbox_wrapreverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.container{
+    width: 200px;
+    height: 140px;
+    background-color: blueviolet;
+    margin: 20px;
+    /* Time for transition is set */
+    transition: 1.5s;
+}
+/* ROTATION */
+/* Rotate about Z-axis */
+.rotate:hover{
+    transform: rotate(45deg);
+}
+/* Rotate about X-axis */
+.rotateX:hover{
+    transform: rotateX(45deg);
+}
+/* Rotate about Y-axis */
+.rotateY:hover{
+    transform: rotateY(45deg);
+}
+/* Rotate about Z-axis */
+.rotateZ:hover{
+    transform: rotateZ(45deg);
+}
+
+/* TRANSLATION */
+/* Translate X */
+/* Move about X-axis */
+.translateX:hover{
+    transform: translateX(30px);
+}
+/* Translate Y */
+/* Move about Y-axis */
+.translateY:hover{
+    transform: translateY(30px);
+}
+
+/* Scale */
+/* increases or decreases the size of an element  */
+/* Scale about both X-axis and Y-Axis */
+.scale:hover{
+    transform: scale(1.2);
+}
+/* Scale about X-axis */
+
+.scaleX:hover{
+    transform: scaleX(1.2);
+}
+/* Scale about Y-axis */
+
+.scaleY:hover{
+    transform: scaleY(1.5);
+}
+
+/* skew */
+/* skew about X-axis */
+.skewX:hover{
+    transform: skewX(45deg);
+}
+/* skew about Y-axis */
+.skewY:hover{
+    transform: skewY(45deg);
+}
+/* skew about both X-axis and Y-axis */
+.skew:hover{
+    transform: skew(20deg,10deg);
+}
