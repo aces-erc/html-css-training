@@ -1,0 +1,96 @@
+<!-- css animation direction -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            animation-name: box_animation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .forward{
+            /* The animation is played as normal */
+            animation-direction: forwards;
+        }
+        .reverse{
+            /*  played in reverse direction */
+            animation-direction: reverse;
+        }
+        .alternate{
+            /* played forwards first, then backwards */
+            animation-direction: alternate;
+        }
+        .alternate-reverse{
+            /* played backwards first, then forwards */
+            animation-direction: alternate-reverse;
+        }
+        @keyframes box_animation {
+            0%{
+                transform: translateX(0);
+            }
+            25%{
+                transform: translateX(25px);
+            }
+            50%{
+                transform: translateX(50px);
+            }
+            75%{
+                transform: translateX(75px);
+            }
+            100%{
+                transform: translateX(100px);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Forwards -->
+
+    <h3>Forwards:</h3>
+    <p>(The animation is played as normal)</p>
+    <div class="container forward">
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- Reverse -->
+    <h3>Reverse:</h3>
+    <p> played in reverse direction</p>
+    <div class="container reverse">
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- alternate -->
+    <h3>Alternate:</h3>
+    <p>played forwards first, then backwards</p>
+    <div class="container alternate">
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- alternate-reverse -->
+    <h3>Alternate Reverse:</h3>
+    <p>played forwards first, then backwards</p>
+    <div class="container alternate-reverse">
+
+    </div>
+</body>
+</html>
