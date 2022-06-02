@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            display: grid;
+            /* grid-template-rows: 1fr 6fr 2fr; */
+            grid-template-rows: 1fr 6fr 2fr 2fr 1fr;
+            grid-template-columns:  1fr;
+            gap: 10px;
+        }
+        .container_color{
+            background-color: blueviolet;
+            color: beige;
+        }
+        /* Min-width 800px bhanda thulo screen ma media ko design dekhaunae natra mathi ko */
+        @media (min-width: 800px){
+            main{
+                grid-template-rows: 1fr 10fr 2fr;
+                grid-template-columns:  1fr 10fr 1fr;
+               
+             }
+             .header{
+                grid-column: 1/4;
+                grid-row: 1/2;
+
+            }
+            .left{
+                grid-column: 1/2;
+                grid-row: 2/4;
+            }
+            .section{
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .right{
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+            .footer{
+                grid-column: 2/4;
+                grid-row: 3/4;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="header container_color">
+            <p>Header</p>
+        </div>
+        <div class="section container_color">
+            <p>Section</p>
+        </div>
+        <div class="left container_color">
+            <p>Left</p>
+        </div>
+        <div class="right container_color">
+            <p>Right</p>
+        </div>
+        <div class="footer container_color">
+            <p>Footer</p>
+        </div>
+
+    </main>
+    <h3 style="text-align: center; font-family: cursive;">Grid Layout</h3>
+
+</body>
+</html>
