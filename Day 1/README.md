@@ -21,7 +21,7 @@
         - DOCTYPE declaration
         - ***\<head>*** section
         - meta charset utf-8 encoding
-        - *** \<body>*** section
+        - ***\<body>*** section
     - Using Emmet Abbreviation in VSCode
 - Viewing the Output in a Browser
 - HTML Comments
