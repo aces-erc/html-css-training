@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: violet;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+b{
+    color: darkblue;
+}
+form{
+    width: 200px;
+    height: 80px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+/* Focus Within allows to style an element when it has focus, but also when any of its inner elements (descendants) have focus */
+form:focus-within{
+    background-color: #ff8;
+}
+/* First element of list is triggered */
+.tree1 .tree_element:first-child{
+    color: red;
+}
+/* last element of list is triggered */
+
+.tree1 .tree_element:last-child{
+    color: blue;
+}
+/* Gives Color red to every even element but not 6*/
+.tree2 .tree_element:nth-child(2n):not(:nth-child(6)){
+    color: red;
+}
+
+</style>
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <ul>
+        <li>
+            <h3>Location & user action pseudo-classes</h3>
+            <b>Example 1</b>
+            <p><b><a href="https://github.com/aces-erc/" target="github">This is a link</a></b></p>
+            <br>
+            <b>Example 2</b>
+            <p> It allows to style an element when it has focus, but also when any of its inner elements (descendants) have focus</p>
+            <form action="">
+                <label for="">Name</label>
+                <input type="text">
+            </form>
+            <br>
+        </li>
+        <li>
+            <h3>Tree-structural Pseudo-Classes</h3> 
+            <b>Example 1</b>
+            <ul class="tree1">
+                <li class="tree_element">First</li>
+                <li class="tree_element">Second</li>
+                <li class="tree_element">Third</li>
+                <li class="tree_element">Fourth</li>
+             
+            </ul>
+            <b>Example 2</b>
+            <ul class="tree2">
+                <li class="tree_element">First</li>
+                <li class="tree_element">Second</li>
+                <li class="tree_element">Third</li>
+                <li class="tree_element">Fourth</li>
+                <li class="tree_element">Fifth</li>
+                <li class="tree_element">Sixth</li>
+            </ul>
+        </li>
+    </ul>
+  
+</body>
+</html>
+
+

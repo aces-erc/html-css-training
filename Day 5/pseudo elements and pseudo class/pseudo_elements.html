@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+           margin: 10px;
+        }
+        h3::before{
+            content: "Before ";
+            color: red;
+        }
+        h3::after{
+            content: " After";
+            color: blue;
+        }
+        li::before{
+            content: "💻";
+            
+        }
+    </style>    
+</head>
+<body>
+        <h1>Pseudo Elements</h1>
+        <br>
+        <b>Example 1</b>
+        <p>The ::before and ::after pseudo-elements in CSS allows you to insert content onto a page without it needing to be in the HTML</p>
+        <h3>Normal Text</h3>
+        <br>
+        <b>Example 2</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Github</li>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+        </ul>
+        <br>
+       <em class="note">
+           For more practical uses of before after follow this website. <a href="https://css-tricks.com/7-practical-uses-for-the-before-and-after-pseudo-elements-in-css/" target="website">Click Me!!!</a>
+       </em> 
+    
+</body>
+</html>
